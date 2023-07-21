@@ -1,0 +1,37 @@
+/* Задание:
+1.Создать файл стилей 
+2.Подключить стили к index.html 
+3.Добавить обнуление стилей 
+4.Проговорить голосом где лучше использовать padding, а где margin 
+5.Добавить все необходимые отступы для контента из задания 1 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    padding-bottom: 99px;
+}
+
+.header {
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+.top__content {
+    margin-top: 160px;
+    margin-bottom: 197px;
+}
+
+.subtitle {
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.top__buttons {
+    margin-top: 50px;
+}
