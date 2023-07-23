@@ -86,10 +86,11 @@ body {
 .button {
     font-size: 20px;
     font-weight: 600;
+    color: var(--ffffff, #FFF);
     padding: 15px 30px;
     border-radius: 5px;
     background-color: var(--3-a-68-b-8, #3A68B8);
-}
+    }
 
 .top__logos {
     display: flex;
