@@ -132,7 +132,8 @@ body {
     color: #FFF;
     font-size: 40px;
     font-weight: 700;
-    line-height: 130%; /* 52px */
+    line-height: 130%;
+    /* 52px */
 }
 
 .middle__text {
@@ -140,9 +141,11 @@ body {
     margin-bottom: 50px;
     max-width: 460px;
     color: #FFF;
-    font-size: 16px;;
+    font-size: 16px;
+    ;
     font-weight: 600;
-    line-height: 160%; /* 25.6px */
+    line-height: 160%;
+    /* 25.6px */
 }
 
 .content {
@@ -199,7 +202,8 @@ body {
     color: #FFF;
     font-size: 40px;
     font-weight: 700;
-    line-height: 130%; /* 52px */
+    line-height: 130%;
+    /* 52px */
 }
 
 .text__back {
@@ -209,7 +213,8 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 25.6px */
+    line-height: 160%;
+    /* 25.6px */
 }
 
 .top__footer {
@@ -230,15 +235,15 @@ body {
     font-style: normal;
     font-weight: 500;
     margin-bottom: 33px;
- }
+}
 
- .story {
+.story {
     color: #FFF;
     font-family: Roboto;
     font-size: 14px;
     font-style: italic;
     font-weight: 100;
- }
+}
 
 .info__href {
     color: #FFF;
@@ -246,39 +251,55 @@ body {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
- }
+}
 
- .item2 {
+.item2 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 33px;
- }
+}
 
 
- .item1 {
+.item1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 24px;
- }
+}
 
-
- .info__block1 {
+.info__block1 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 33px;
- }
+}
 
- .info__href {
+.info__href {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-end;
     justify-content: flex-start;
-    gap:10px;
- }
+    gap: 10px;
+}
 
-/* .item3 {
+.item3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info__block2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.icons {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 24px;
-} */
+}
