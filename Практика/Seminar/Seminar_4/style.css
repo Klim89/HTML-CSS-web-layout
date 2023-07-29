@@ -61,7 +61,7 @@ body {
 }
 
 .subtitle {
-    width: 265px;
+    max-width: 265px;
     color: #3A68B8;
     font-size: 18px;
     font-weight: 600;
@@ -70,7 +70,7 @@ body {
 }
 
 .title {
-    width: 604px;
+    max-width: 604px;
     color: #FFF;
     font-size: 55px;
     font-weight: 800;
@@ -78,7 +78,7 @@ body {
 }
 
 .text {
-    width: 558px;
+    max-width: 558px;
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
