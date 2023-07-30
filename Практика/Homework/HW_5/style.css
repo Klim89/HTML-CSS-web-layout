@@ -155,6 +155,7 @@ body {
     justify-content: center;
     padding-top: 264px;
     margin-bottom: 257px;
+    border-radius: 10px;
 }
 
 .item {
@@ -164,6 +165,7 @@ body {
     display: grid;
     justify-items: center;
     gap: 30px;
+    border-radius: 10px;
 }
 
 .item__big {
@@ -223,7 +225,7 @@ body {
     gap: 30.18px;
 }
 
-.item {
+.item1, .item2, .item3 {
     background-color: #020A18;
 }
 
