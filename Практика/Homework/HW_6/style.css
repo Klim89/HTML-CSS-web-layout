@@ -76,10 +76,6 @@ body {
     font-weight: 900;
 }
 
-.lux {
-    white-space: nowrap;
-}
-
 .lux__fashion {
     display: flex;
     gap: 11px;
@@ -90,7 +86,7 @@ body {
     font-family: Lato;
     font-size: 32px;
     font-weight: 700;
-
+    white-space: nowrap;
 }
 
 .fashion {
