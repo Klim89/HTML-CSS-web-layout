@@ -22,8 +22,12 @@ body {
     padding-right: calc(50% - 570px);
 }
 
+.top__content{
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
 .header {
-    max-width: 1600px;
     display: flex;
     justify-content: space-between;
     background-color: #222;
@@ -35,6 +39,7 @@ body {
     padding-top: 18px;
     padding-bottom: 19px;
     gap: 41px;
+    padding-left: 231px;
 }
 
 .right__header {
@@ -42,11 +47,11 @@ body {
     align-items: center;
     padding-top: 18px;
     padding-bottom: 19px;
+    padding-right: 240px;
     gap: 33px;
 }
 
 .content {
-    max-width: 1600px;
     background-color: #F1E4E6;
     display: flex;
     justify-content: flex-start;
@@ -58,7 +63,10 @@ body {
     gap: 16px;
     margin-top: 290px;
     margin-bottom: 381px;
-    margin-left: 63.42;
+}
+
+.line {
+    margin-left: 63px;
 }
 
 .brand {
@@ -66,6 +74,10 @@ body {
     font-family: Lato;
     font-size: 48px;
     font-weight: 900;
+}
+
+.lux {
+    white-space: nowrap;
 }
 
 .lux__fashion {
@@ -220,6 +232,7 @@ body {
 .down__button {
     margin-top: 48px;
     margin-bottom: 60px;
+    margin-left: 465px;
 }
 
 .button {
