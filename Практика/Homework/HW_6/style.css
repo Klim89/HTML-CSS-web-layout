@@ -5,7 +5,6 @@ a {
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
 }
 
 img {
@@ -24,14 +23,16 @@ body {
 }
 
 .top__content{
-    padding-left: calc(50% - 800px);
-    padding-right: calc(50% - 800px);
+    /* padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px); */
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #222;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px)
 }
 
 .left__header {
@@ -56,6 +57,8 @@ body {
     background-color: #F1E4E6;
     display: flex;
     justify-content: flex-start;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px)
 }
 
 .section {
