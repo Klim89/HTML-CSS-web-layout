@@ -439,6 +439,10 @@ body {
         padding-right: calc(50% - 171.5px);
     }
 
+    .top__content{
+        padding: 3% 2% 0;
+    }
+
     .left__header {
         padding-top: 18px;
         padding-bottom: 18px;
@@ -484,6 +488,10 @@ body {
         font-size: 20px;
     }
 
+    .middle__block{
+        padding: 3% 2% 0;
+    }
+
     .middle__items {
         margin-top: 64px;
         display: flex;
@@ -504,14 +512,16 @@ body {
 
     .top__info {
         margin-bottom: 64.7px;
+        max-width: 336px;
     }
 
     .down__content {
+        padding: 3% 2% 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
-        width: 359px;
+        min-width: 359px;
         padding-left: calc(50% - 179.5px);
         padding-right: calc(50% - 179.5px);
     }
