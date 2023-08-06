@@ -504,6 +504,7 @@ body {
 
     .top__info {
         margin-bottom: 64.7px;
+        max-width: 336px;
     }
 
     .down__content {
@@ -511,7 +512,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-content: center;
-        width: 359px;
+        min-width: 359px;
         padding-left: calc(50% - 179.5px);
         padding-right: calc(50% - 179.5px);
     }
