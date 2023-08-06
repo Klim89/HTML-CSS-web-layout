@@ -439,10 +439,6 @@ body {
         padding-right: calc(50% - 171.5px);
     }
 
-    .top__content{
-        padding: 3% 2% 0;
-    }
-
     .left__header {
         padding-top: 18px;
         padding-bottom: 18px;
@@ -476,6 +472,10 @@ body {
         margin-left: 56px;
     }
 
+    .text {
+        max-width: 236px;
+    }
+
     .brand {
         font-size: 38px;
     }
@@ -486,10 +486,6 @@ body {
 
     .fashion {
         font-size: 20px;
-    }
-
-    .middle__block{
-        padding: 3% 2% 0;
     }
 
     .middle__items {
@@ -508,6 +504,7 @@ body {
         margin-top: 64px;
         margin-bottom: 3.3px;
         font-size: 30px;
+        max-width: 336px;
     }
 
     .top__info {
@@ -516,7 +513,6 @@ body {
     }
 
     .down__content {
-        padding: 3% 2% 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
