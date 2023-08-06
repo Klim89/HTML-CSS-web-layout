@@ -472,6 +472,10 @@ body {
         margin-left: 56px;
     }
 
+    .text {
+        max-width: 236px;
+    }
+
     .brand {
         font-size: 38px;
     }
@@ -500,6 +504,7 @@ body {
         margin-top: 64px;
         margin-bottom: 3.3px;
         font-size: 30px;
+        max-width: 336px;
     }
 
     .top__info {
