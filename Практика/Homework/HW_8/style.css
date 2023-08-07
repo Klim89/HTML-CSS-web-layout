@@ -93,7 +93,7 @@ body {
 }
 
 .men {
-    width: 50%;
+    max-width: 50%;
 }
 
 .brand {
@@ -312,7 +312,7 @@ body {
 }
 
 
-@media (max-width: 1160px) {
+@media (max-width: 1165px) {
 
     .center {
         padding-left: calc(50% - 368px);
@@ -477,14 +477,18 @@ body {
         font-size: 38px;
     }
 
+    .lux__fashion {
+        display: flex;
+        gap: 7px;
+    }
+
     .lux {
         font-size: 20px;
-        white-space: wrap;
-        gap: 7px;
     }
 
     .fashion {
         font-size: 20px;
+        white-space: wrap;
     }
 
     .middle__items {
@@ -553,6 +557,15 @@ body {
 
 @media (max-width: 336px) {
     .line {
+        display: none;
+    }
+    .lux__fashion {
+        display: flex;
+        gap: 7px;
+        flex-direction: column;
+    }
+    
+    .loop {
         display: none;
     }
 }
