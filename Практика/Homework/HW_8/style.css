@@ -283,7 +283,6 @@ body {
 
 .down__button {
     margin-top: 48px;
-    margin-bottom: 60px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
@@ -294,6 +293,7 @@ body {
     padding-bottom: 14px;
     padding-left: 39px;
     padding-right: 39px;
+    margin-bottom: 60px;
     color: #F26376;
     text-align: center;
     font-family: Lato;
@@ -417,6 +417,9 @@ body {
 
     .down__button {
         margin-top: 32.48px;
+    }
+
+    .button {
         margin-bottom: 70.52px;
     }
 
@@ -551,20 +554,25 @@ body {
 
     .down__button {
         margin-top: 40.61px;
+    }
+
+    .button {
         margin-bottom: 85px;
     }
+
 }
 
 @media (max-width: 336px) {
     .line {
         display: none;
     }
+
     .lux__fashion {
         display: flex;
         gap: 7px;
         flex-direction: column;
     }
-    
+
     .loop {
         display: none;
     }
