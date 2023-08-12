@@ -381,7 +381,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 98.4%;
+    height: 98.8%;
 }
 
 .heading {
@@ -945,7 +945,13 @@ input:hover {
         align-items: center;
     }
     .item10 {
-        height: 111px;
+        min-height: 111px;
+    }
+    .back_1>img {
+        display: none;
+    }
+    .back_1::before {
+        content: url(img/Categories.png);
     }
     .heading {
         margin-top: 64px;
