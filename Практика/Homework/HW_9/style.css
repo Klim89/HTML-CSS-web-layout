@@ -381,7 +381,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 98.4%;
 }
 
 .heading {
@@ -513,7 +513,6 @@ body {
     border: 1px solid #9F9F9F;
     background-color: rgba(241, 109, 127, 1);
     color: #FFF;
-    /* transform: scale(1.2); */
 }
 
 .promo {
@@ -624,9 +623,12 @@ input {
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
     text-align: center;
+    padding-left: 22px;
+    padding-right: 22px;
 }
 
 ::placeholder {
+    color: #222224;
     width: 170px;
     height: 36px;
     font-family: Lato;
@@ -634,8 +636,6 @@ input {
     font-weight: 400;
     padding-top: 7px;
     padding-bottom: 6px;
-    padding-right: 22px;
-    color: #222224;
     opacity: 0.671;
 }
 
@@ -837,9 +837,6 @@ input:hover {
         padding-right: calc(50% - 384px);
         min-height: 610px;
     }
-    /* .car {
-        padding-top: 48.16px;
-    } */
     .delivery {
         padding-top: 48.16px;
     }
@@ -881,6 +878,9 @@ input:hover {
     .subscribe__right {
         padding-top: 0px;
         padding-bottom: 140px;
+    }
+    input {
+        border: 0;
     }
     .footer {
         background-color: #222224;
@@ -993,8 +993,94 @@ input:hover {
         margin-bottom: 85px;
     }
     .promo {
-        margin-top: 64.52px;
-        padding-bottom: 64px;
+        margin-top: 96px;
+        padding-bottom: 81px;
+        padding-left: calc(50% - 187.5px);
+        padding-right: calc(50% - 187.5px);
+    }
+    .delivery {
+        padding-top: 48px;
+    }
+    .quality {
+        padding-top: 46.83px;
+    }
+    .sales {
+        padding-top: 46.73px;
+    }
+    .header__promo_1 {
+        margin-top: 27.12px;
+        margin-bottom: 14.65px;
+    }
+    .header__promo_3 {
+        margin-top: 18.42px;
+        margin-bottom: 14.66px;
+    }
+    .header__promo_2 {
+        margin-top: 24.22px;
+        margin-bottom: 16.01px;
+    }
+    .box {
+        min-height: 550px;
+        gap: 59px;
+        background: url(img/subscribe_back_mobile.png), lightgray -330.522px -207.478px / 322.249% 246.875% no-repeat;
+        background-size: cover;
+        background-position: 23%;
+        padding-left: calc(50% - 187.5px);
+        padding-right: calc(50% - 187.5px);
+    }
+    .subscribe__left {
+        padding-top: 64px;
+    }
+    .subscribe__promo {
+        margin-top: 30px;
+        margin-bottom: 0px;
+        min-height: 73px;
+        font-size: 18px;
+    }
+    .subscribe__right {
+        padding-top: 0px;
+        padding-bottom: 110px;
+    }
+    .subscribe__text {
+        font-size: 14px;
+    }
+    input {
+        background-image: none;
+    }
+    input {
+        width: 204px;
+        height: 47px;
+        padding-left: 21.07px;
+        padding-right: 21.07px;
+        border: 0;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='309' height='48' viewBox='0 0 309 48' fill='none'%3E%3Cpath d='M287.719 0.145996H21.2783C9.52661 0.145996 0 10.6528 0 23.6137C0 36.5745 9.52661 47.0814 21.2783 47.0814H287.719C299.471 47.0814 308.998 36.5745 308.998 23.6137C308.998 10.6528 299.471 0.145996 287.719 0.145996Z' fill='%23E1E1E1'/%3E%3C/svg%3E");
+        /* border-bottom-right-radius: 90px;
+        border-top-right-radius: 90px; */
+    }
+     ::placeholder {
+        width: 162.837px;
+        height: 34.483px;
+    }
+    .subscribe__button {
+        height: 47px;
+    }
+    .footer {
+        background-color: #222224;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 43px;
+        max-height: 143px;
+        padding-left: calc(50% - 187.5px);
+        padding-right: calc(50% - 187.5px);
+        padding-top: 43px;
+    }
+    .footer__logo {
+        border: 0;
+    }
+    .footer__text {
+        margin-top: 0px;
+        margin-bottom: 9px;
+        text-align: center;
     }
     .display__none:hover .dropdown__menu {
         display: block;
@@ -1013,5 +1099,20 @@ input:hover {
     }
     .loop {
         display: none;
+    }
+    .form {
+        width: auto;
+    }
+    input {
+        width: 90px;
+        height: 47px;
+    }
+     ::placeholder {
+        width: 100.837px;
+        height: 34.483px;
+    }
+    .subscribe__button {
+        width: 70px;
+        height: 47px;
     }
 }
