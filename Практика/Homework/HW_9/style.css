@@ -954,6 +954,10 @@ input:hover {
     .back_1::before {
         content: url(img/Categories.png);
     }
+    .layer {
+        width: 100%;
+        height: 98.5%;
+    }
     .heading {
         margin-top: 64px;
         margin-bottom: 3.3px;
@@ -1121,5 +1125,9 @@ input:hover {
     .subscribe__button {
         width: 70px;
         height: 45px;
+    }
+    .layer {
+        width: 100%;
+        height: 98.5%;
     }
 }
