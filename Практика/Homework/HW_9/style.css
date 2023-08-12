@@ -960,7 +960,7 @@ input:hover {
     }
     .layer_1 {
         width: 100%;
-        height: 98%;
+        height: 97%;
     }
     .heading {
         margin-top: 64px;
@@ -1087,9 +1087,6 @@ input:hover {
         padding-right: calc(50% - 187.5px);
         padding-top: 43px;
     }
-    .footer__logo {
-        border: 0;
-    }
     .footer__text {
         margin-top: 0px;
         margin-bottom: 9px;
@@ -1127,13 +1124,5 @@ input:hover {
     .subscribe__button {
         width: 70px;
         height: 45px;
-    }
-    .layer {
-        width: 100%;
-        height: 98.5%;
-    }
-    .layer_1 {
-        width: 100%;
-        height: 98%;
     }
 }
