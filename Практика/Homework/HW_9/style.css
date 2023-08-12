@@ -1044,8 +1044,8 @@ input:hover {
     .subscribe__text {
         font-size: 14px;
     }
-    input {
-        background-image: none;
+    .form {
+        max-width: 341px;
     }
     input {
         width: 204px;
@@ -1058,7 +1058,7 @@ input:hover {
         border-top-right-radius: 90px; */
     }
      ::placeholder {
-        width: 162.837px;
+        max-width: 162.837px;
         height: 34.483px;
     }
     .subscribe__button {
@@ -1088,7 +1088,7 @@ input:hover {
     }
 }
 
-@media (max-width: 336px) {
+@media (max-width: 358px) {
     .line {
         display: none;
     }
@@ -1105,7 +1105,7 @@ input:hover {
     }
     input {
         width: 90px;
-        height: 47px;
+        height: 45px;
     }
      ::placeholder {
         width: 100.837px;
@@ -1113,6 +1113,6 @@ input:hover {
     }
     .subscribe__button {
         width: 70px;
-        height: 47px;
+        height: 45px;
     }
 }
