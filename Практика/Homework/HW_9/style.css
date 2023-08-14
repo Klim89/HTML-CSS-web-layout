@@ -305,6 +305,7 @@ body {
 
 .section {
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 16px;
     margin-top: 290px;
@@ -982,7 +983,13 @@ input:hover {
     .section {
         margin-top: 148px;
         margin-bottom: 149px;
-        flex-wrap: wrap;
+        max-height: 66px;
+        align-items: flex-end;
+    }
+
+    .line__svg {
+        width: 12px;
+        height: 61px;
     }
 
     .brand {
@@ -1024,8 +1031,11 @@ input:hover {
         content: url(img/Categories.png);
     }
 
+    .layer {
+        height: 99%;
+    }
+
     .layer_1 {
-        width: 100%;
         height: 98%;
     }
 
