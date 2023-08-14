@@ -987,9 +987,13 @@ input:hover {
         align-items: flex-end;
     }
 
-    .line__svg {
+    .line>svg {
         width: 12px;
         height: 61px;
+    }
+
+   .line {
+        margin-left: 56px;
     }
 
     .brand {
