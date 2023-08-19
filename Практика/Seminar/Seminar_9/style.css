@@ -1,0 +1,19 @@
+.carousel-indicators .active {
+    background-color: brown;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../Seminar_2/img/vk.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../Seminar_2/img/telegram.svg);
+}
+
+.right {
+    flex-direction: row-reverse;
+}
+
+.navbar-nav {
+    text-align: right;
+}
